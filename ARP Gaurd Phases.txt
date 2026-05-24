@@ -1,0 +1,27 @@
+ARPGuard Project – 15-Day Development Plan
+
+Day 1–2 → Environment Setup & Fundamentals
+- Set up Linux VMs (attacker, victim, router).
+- Practice ARP, IP commands, and Wireshark packet analysis.
+
+Day 3–5 → Core ARP Spoofing Module
+- Implement ARP poisoning with Scapy.
+- Verify with Wireshark.
+
+Day 6–8 → Basic + Advanced Detection (Merged)
+- Real-time ARP packet sniffing.
+- Detect anomalies (multiple MAC for one IP).
+- Auto-recovery with Gratuitous ARP.
+
+Day 9–11 → Visualization & Alerts
+- Tkinter or Flask dashboard.
+- Network graph visualization with NetworkX.
+- Add Telegram/Slack alerts.
+
+Day 12–13 → Optimization & Modularity
+- Organize code into modules (attacker.py, detector.py, ui.py).
+- Add configuration file support.
+
+Day 14–15 → Testing, Documentation & Demo
+- Test on different network setups.
+- Prepare documentation, diagrams, and final presentation.
